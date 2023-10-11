@@ -1,0 +1,88 @@
+.edit-book {
+  padding: 4rem 0;
+  border: 0px solid red;
+  /*display: flex;
+  justify-content: center;*/
+}
+
+.form-container {
+  border: 0px solid red;
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
+.book-form {
+  width: 100%;
+  background-color: var(--color-dark--2);
+  padding: 2rem 3rem;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* Different from other form */
+}
+
+.book-form h1 {
+  color: var(--color-light--2);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.column label {
+  color: var(--color-light--2);
+}
+
+.image-column {
+  flex: 1;
+}
+
+.major-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 2;
+  max-width: 100%;
+}
+
+.book-action {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  border: 0px solid red;
+}
+
+@media screen and (max-width: 800px) {
+  .form-container {
+    max-width: 60rem;
+  }
+
+  .row {
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border: 0px solid red;
+  }
+
+  .major-column {
+    width: 100%;
+  }
+}

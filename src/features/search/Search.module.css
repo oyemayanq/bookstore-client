@@ -1,0 +1,10 @@
+.search-container {
+  padding: 3rem 0;
+}
+
+.search-container h1 {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}

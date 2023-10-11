@@ -1,0 +1,144 @@
+1. Title: The Art of Programming
+   Price: Rs. 1,799
+   Publisher: O'Reilly Media
+   Published Date: 2022-01-15
+   Authors: Donald E. Knuth
+   Genres: Computer Science
+   Description: "The Art of Programming" by Donald E. Knuth is a legendary work in computer science. This multi-volume series explores the intricacies of algorithms, data structures, and mathematical computer science.
+
+2. Title: To Kill a Mockingbird
+   Price: Rs. 750
+   Publisher: Harper Lee
+   Published Date: 1960-07-11
+   Authors: Harper Lee
+   Genres: Fiction, Classic
+   Description: Harper Lee's classic novel "To Kill a Mockingbird" addresses themes of racism and morality through the eyes of a young girl named Scout Finch in the American South.
+
+3. Title: Cosmos
+   Price: Rs. 1,299
+   Publisher: Ballantine Books
+   Published Date: 1980-10-01
+   Authors: Carl Sagan
+   Genres: Science, Astronomy
+   Description: Carl Sagan's "Cosmos" takes readers on a journey through the universe, exploring the wonders of space, science, and our place in the cosmos.
+
+4. Title: The Joy of Cooking
+   Price: Rs. 1,499
+   Publisher: Scribner
+   Published Date: 1931-11-25
+   Authors: Irma S. Rombauer, Marion Rombauer Becker
+   Genres: Cookbook, Culinary
+   Description: "The Joy of Cooking" is a beloved culinary classic, offering a diverse range of recipes, from comfort food to gourmet dishes.
+
+5. Title: A Brief History of Time
+   Price: Rs. 1,199
+   Publisher: Bantam Books
+   Published Date: 1988-04-01
+   Authors: Stephen Hawking
+   Genres: Science, Physics
+   Description: Stephen Hawking's "A Brief History of Time" explores complex scientific concepts, making them accessible to the general reader, and delves into the nature of the universe and time.
+
+6. Title: The Great Gatsby
+   Price: Rs. 499
+   Publisher: Scribner
+   Published Date: 1925-04-10
+   Authors: F. Scott Fitzgerald
+   Genres: Fiction, Classic
+   Description: F. Scott Fitzgerald's "The Great Gatsby" is a timeless tale of wealth, love, and the American Dream in the Roaring Twenties.
+
+7. Title: Pride and Prejudice
+   Price: Rs. 450
+   Publisher: Jane Austen
+   Published Date: 1813-01-28
+   Authors: Jane Austen
+   Genres: Fiction, Romance
+   Description: Jane Austen's "Pride and Prejudice" is a classic of English literature, exploring themes of love, class, and societal expectations.
+
+8. Title: Sapiens: A Brief History of Humankind
+   Price: Rs. 1,799
+   Publisher: Harper
+   Published Date: 2011-02-10
+   Authors: Yuval Noah Harari
+   Genres: History, Non-Fiction
+   Description: Yuval Noah Harari's "Sapiens" offers a sweeping history of human evolution, from the emergence of Homo sapiens to the present day.
+
+9. Title: 1984
+   Price: Rs. 599
+   Publisher: George Orwell
+   Published Date: 1949-06-08
+   Authors: George Orwell
+   Genres: Fiction, Dystopian
+   Description: George Orwell's "1984" is a dystopian masterpiece that explores themes of totalitarianism, surveillance, and the erosion of individual freedom.
+
+10. Title: The Hobbit
+    Price: Rs. 699
+    Publisher: HarperCollins
+    Published Date: 1937-09-21
+    Authors: J.R.R. Tolkien
+    Genres: Fantasy, Adventure
+    Description: J.R.R. Tolkien's "The Hobbit" takes readers on a magical journey with Bilbo Baggins as he embarks on an epic quest.
+
+11. Title: The Catcher in the Rye
+    Price: Rs. 499
+    Publisher: J.D. Salinger
+    Published Date: 1951-07-16
+    Authors: J.D. Salinger
+    Genres: Fiction, Coming-of-Age
+    Description: J.D. Salinger's "The Catcher in the Rye" follows the rebellious Holden Caulfield as he navigates the challenges of adolescence and adulthood.
+
+12. Title: The Da Vinci Code
+    Price: Rs. 899
+    Publisher: Doubleday
+    Published Date: 2003-03-18
+    Authors: Dan Brown
+    Genres: Mystery, Thriller
+    Description: Dan Brown's "The Da Vinci Code" is a thrilling mystery that combines art, religion, and history in a gripping narrative.
+
+13. Title: The Road
+    Price: Rs. 699
+    Publisher: Vintage Books
+    Published Date: 2006-09-26
+    Authors: Cormac McCarthy
+    Genres: Fiction, Dystopian
+    Description: Cormac McCarthy's "The Road" is a haunting post-apocalyptic tale of survival and the enduring bond between a father and son.
+
+14. Title: The Power of Habit
+    Price: Rs. 1,199
+    Publisher: Random House
+    Published Date: 2012-02-28
+    Authors: Charles Duhigg
+    Genres: Self-Help, Psychology
+    Description: Charles Duhigg's "The Power of Habit" explores the science of habit formation and offers insights into how habits can be changed.
+
+15. Title: Educated
+    Price: Rs. 1,299
+    Publisher: Random House
+    Published Date: 2018-02-20
+    Authors: Tara Westover
+    Genres: Memoir, Non-Fiction
+    Description: Tara Westover's "Educated" is a memoir of her journey from a rural, uneducated upbringing to earning a Ph.D. through self-education.
+
+16. Title: The Martian
+    Price: Rs. 799
+    Publisher: Crown
+    Published Date: 2011-02-11
+    Authors: Andy Weir
+    Genres: Science Fiction, Adventure
+    Description: Andy Weir's "The Martian" follows astronaut Mark Watney's struggle for survival on Mars after being left behind by his crew.
+
+17. Title: Gone Girl
+    Price: Rs. 599
+    Publisher: Crown
+    Published Date: 2012-06-05
+    Authors: Gillian Flynn
+    Genres: Mystery, Thriller
+    Description: Gillian Flynn's "Gone Girl" is a psychological thriller that explores the complexities of a marriage amidst a mysterious disappearance.
+
+18. Title: The Immortal Life of Henrietta Lacks
+    Price: Rs. 699
+    Publisher: Crown
+    Published Date: 2010-02-02
+    Author: Rebecca Skloot
+    Genres: Non-Fiction, Science, Biography
+    Description: "The Immortal Life of Henrietta Lacks" by Rebecca Skloot tells the remarkable true story of Henrietta Lacks, whose cells were taken without her knowledge and became the foundation for groundbreaking medical research. This book explores the ethical and scientific implications of this medical discovery and the impact it had on Henrietta's family.
+

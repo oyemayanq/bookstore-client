@@ -1,0 +1,9 @@
+.primary {
+  fill: var(--color-brand--2);
+  stroke: var(--color-brand--2);
+}
+
+.secondary {
+  fill: var(--color-dark--3);
+  stroke: var(--color-dark--3);
+}

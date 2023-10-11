@@ -1,0 +1,19 @@
+.page-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  margin-top: 10rem;
+}
+
+.error-message {
+  font-size: 3rem;
+  color: var(--color-dark--2);
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 420px) {
+  .error-message {
+    font-size: 2rem;
+  }
+}

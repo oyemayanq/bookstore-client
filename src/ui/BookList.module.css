@@ -1,0 +1,25 @@
+.book-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  /*column-gap: 3rem;*/
+}
+
+@media screen and (max-width: 1300px) {
+  .book-list {
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .book-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .book-list {
+    grid-template-columns: 1fr;
+  }
+}

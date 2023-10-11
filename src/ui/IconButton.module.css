@@ -1,0 +1,26 @@
+.icon-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.round-danger {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-danger--1);
+}
+
+.round-safe {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-safe--1);
+}

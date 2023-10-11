@@ -1,0 +1,163 @@
+.cart {
+  padding: 3rem 3rem;
+}
+
+.empty-cart {
+  max-width: 60rem;
+  margin: 4rem auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.empty-cart p {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.cart-header {
+  font-size: 2.4rem;
+  color: var(--color-brand--1);
+}
+
+.cart-detail {
+  display: flex;
+  gap: 10rem;
+  align-items: flex-start;
+}
+
+.cart-list {
+  /*width: 70%;*/
+  flex: 2;
+}
+
+.order-summary {
+  border: 1.8px solid var(--color-light--3);
+  flex: 1;
+  padding: 3rem 2.4rem;
+  border-radius: 5px;
+  /*width: 30%;*/
+}
+
+.order-summary h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.order-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.order-detail p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.order-price-tag {
+  color: var(--color-dark--3);
+}
+
+.order-price {
+  font-weight: 700;
+}
+
+.login-message {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .cart {
+    padding: 3rem 1rem;
+  }
+
+  .cart-detail {
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cart {
+    padding: 3rem 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-row {
+    /*max-width: 60rem;*/
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cart-detail {
+    max-width: 60rem;
+    /*margin: 0 auto;*/
+    flex-direction: column;
+  }
+
+  .order-summary {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+  }
+  .header-row {
+    /*max-width: 60rem;*/
+    width: 40rem;
+  }
+  .cart-detail {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-row {
+    width: 30rem;
+  }
+
+  .cart-details {
+    width: 30rem;
+  }
+
+  .cart-header {
+    font-size: 1.8rem;
+  }
+
+  .order-summary h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .order-detail {
+    margin-bottom: 2rem;
+  }
+
+  .order-detail p {
+    font-size: 1.6rem;
+  }
+}

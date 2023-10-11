@@ -1,0 +1,25 @@
+.user-container {
+  padding: 3rem;
+}
+
+.user-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.user-container h1 span {
+  color: var(--color-brand--1);
+}
+
+@media screen and (max-width: 700px) {
+  .user-container {
+    padding: 3rem 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .user-container {
+    padding: 3rem 0.6rem;
+  }
+}

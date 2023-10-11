@@ -1,0 +1,54 @@
+.btn {
+  color: inherit;
+  text-transform: uppercase;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 700;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+  background-color: var(--color-brand--2--d);
+}
+
+.primary {
+  background-color: var(--color-brand--2--d);
+  color: var(--color-light--2);
+}
+
+.primary:hover {
+  background-color: var(--color-brand--2);
+}
+
+.secondary {
+  color: var(--color-light--3);
+  background-color: var(--color-dark--1);
+  /*border: 2px solid var(--color-brand--1);*/
+}
+
+.secondary:hover {
+  background-color: var(--color-dark--3);
+}
+
+.danger {
+  background-color: var(--color-danger--1);
+  color: var(--color-light--2);
+}
+
+.danger:hover {
+  background-color: var(--color-danger--2);
+}
+
+@media screen and (max-width: 450px) {
+  .btn {
+    font-size: 1.4rem;
+  }
+}

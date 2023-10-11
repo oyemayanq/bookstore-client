@@ -1,0 +1,34 @@
+.pencil-icon {
+  fill: var(--color-blue--1);
+  stroke: var(--color-blue--1);
+}
+
+.trash-icon {
+  fill: var(--color-danger--1);
+  stroke: var(--color-danger--1);
+}
+
+.search-icon {
+  fill: var(--color-dark--4);
+  stroke: var(--color-dark--4);
+}
+
+.close-icon {
+  fill: var(--color-light--1);
+  stroke: var(--color-light--1);
+}
+
+.close-icon--danger {
+  fill: var(--color-danger--1);
+  stroke: var(--color-danger--1);
+}
+
+.check-icon {
+  fill: var(--color-safe--1);
+  stroke: var(--color-safe--1);
+}
+
+.cart-icon {
+  fill: var(--color-light--2);
+  stroke: var(--color-light--2);
+}
