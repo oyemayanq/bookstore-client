@@ -8,21 +8,20 @@ const initialState = {
   error: null,
 };
 
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
 export const createOrder = createAsyncThunk(
   "order/createOrder",
   async function (data, { rejectWithValue }) {
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/orders`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${data.token}`,
-          },
-          body: JSON.stringify(data.order),
-        }
-      );
+      const response = await fetch(`${BACKEND_URL}/orders`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${data.token}`,
+        },
+        body: JSON.stringify(data.order),
+      });
 
       const responseData = await response.json();
 
@@ -52,15 +51,12 @@ export const fetchOrders = createAsyncThunk(
   "order/fetchOrders",
   async function (data, { rejectWithValue }) {
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/orders`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${data.token}`,
-          },
-        }
-      );
+      const response = await fetch(`${BACKEND_URL}/orders`, {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${data.token}`,
+        },
+      });
 
       //console.log("fetching orders");
 
@@ -83,15 +79,12 @@ export const fetchOrderById = createAsyncThunk(
   "order/fetchOrderById",
   async function (data, { rejectWithValue }) {
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/orders/${data.orderId}`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${data.token}`,
-          },
-        }
-      );
+      const response = await fetch(`${BACKEND_URL}/orders/${data.orderId}`, {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${data.token}`,
+        },
+      });
 
       const responseData = await response.json();
 
