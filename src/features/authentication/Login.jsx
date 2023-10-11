@@ -60,7 +60,7 @@ export default function Login() {
       setErrors(initialErrorValues);
     }
 
-    console.log(email, password);
+    //console.log(email, password);
 
     dispatch(loginUser({ email: email.trim(), password: password.trim() }));
     //navigate("/", { replace: true });

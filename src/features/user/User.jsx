@@ -6,6 +6,7 @@ import { fetchBooksByUser } from "./userSlice";
 import SpinnerFullPage from "../../ui/SpinnerFullPage";
 import Button from "../../ui/Button";
 import PageNotFound from "../../pages/PageNotFound";
+import EmptyPage from "../../ui/EmptyPage";
 
 function User() {
   const { token, isLoading, isAuthenticated, userName, userBooks, error } =
@@ -15,6 +16,16 @@ function User() {
   useEffect(() => {
     if (isAuthenticated) dispatch(fetchBooksByUser({ token: token }));
   }, [dispatch, token, isAuthenticated]);
+
+  if (userBooks && userBooks.length === 0) {
+    return (
+      <EmptyPage
+        message={"You have not added any books"}
+        title="Add new book"
+        to="/books/create"
+      />
+    );
+  }
 
   if (error) {
     return <PageNotFound errorMessage={error} />;
@@ -29,14 +40,7 @@ function User() {
       <h1>
         Your books, <span>{userName} </span>
       </h1>
-      {userBooks.length === 0 ? (
-        <div>
-          <p>You have not added any books</p>
-          <Button>Add New Book</Button>
-        </div>
-      ) : (
-        <UserBookList userBooks={userBooks} />
-      )}
+      <UserBookList userBooks={userBooks} />
     </div>
   );
 }

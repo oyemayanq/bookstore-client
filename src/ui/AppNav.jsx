@@ -54,7 +54,7 @@ function MobileMenu({ onClose, isAuthenticated, handleLogout }) {
         ) : (
           <>
             <Link to="/books/create">
-              <Button>Add Book</Button>
+              <Button onClick={onClose}>Add Book</Button>
             </Link>
             <Link
               to="/my/profile"

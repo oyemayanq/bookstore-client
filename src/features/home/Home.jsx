@@ -29,7 +29,9 @@ function Home() {
     return <PageNotFound errorMessage={error} />;
   }
 
-  if (books.length === 0) {
+  if (isLoading) return <SpinnerFullPage />;
+
+  if (!books || books.length === 0) {
     return (
       <EmptyPage
         message="There are no books in the database"
@@ -38,8 +40,6 @@ function Home() {
       />
     );
   }
-
-  if (isLoading) return <SpinnerFullPage />;
 
   return (
     <div className={styles["home"]}>

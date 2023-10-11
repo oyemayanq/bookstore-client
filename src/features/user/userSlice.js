@@ -35,6 +35,8 @@ export const loginUser = createAsyncThunk(
         return rejectWithValue(data.message);
       }
 
+      toast.success("Logged in successfully");
+
       addToLocaStorage(data.token);
 
       return data.token;
@@ -62,6 +64,8 @@ export const signupUser = createAsyncThunk(
         toast.error(data.message);
         return rejectWithValue(data.message);
       }
+
+      toast.success("Signed up successfully");
 
       addToLocaStorage(data.token);
 
