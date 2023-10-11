@@ -78,7 +78,7 @@ export const fetchEditBookById = createAsyncThunk(
 
       const responseData = await response.json();
 
-      console.log("fetching book");
+      //console.log("fetching book");
 
       if (!response.ok) {
         toast.error("Could not get book details");

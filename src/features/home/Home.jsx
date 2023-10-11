@@ -7,6 +7,7 @@ import { fetchBooks } from "../book/bookSlice";
 import Pagination from "../../ui/Pagination";
 import { useSearchParams } from "react-router-dom";
 import PageNotFound from "../../pages/PageNotFound";
+import EmptyPage from "../../ui/EmptyPage";
 
 function Home() {
   const [searchParams] = useSearchParams();
@@ -26,6 +27,16 @@ function Home() {
 
   if (error) {
     return <PageNotFound errorMessage={error} />;
+  }
+
+  if (books.length === 0) {
+    return (
+      <EmptyPage
+        message="There are no books in the database"
+        title="Add Book"
+        to="/books/create"
+      />
+    );
   }
 
   if (isLoading) return <SpinnerFullPage />;
