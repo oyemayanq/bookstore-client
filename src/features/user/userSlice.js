@@ -10,6 +10,8 @@ const initialState = {
   error: null,
 };
 
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
 function addToLocaStorage(token) {
   localStorage.setItem("token", token);
 }
@@ -18,16 +20,13 @@ export const loginUser = createAsyncThunk(
   "user/login",
   async function (user, { rejectWithValue }) {
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/users/login`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(user),
-        }
-      );
+      const response = await fetch(`${BACKEND_URL}/users/login`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(user),
+      });
 
       const data = await response.json();
 
@@ -49,16 +48,13 @@ export const signupUser = createAsyncThunk(
   "user/signup",
   async function (user, { rejectWithValue }) {
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/users/signup`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(user),
-        }
-      );
+      const response = await fetch(`${BACKEND_URL}/users/signup`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(user),
+      });
 
       const data = await response.json();
 
@@ -80,15 +76,12 @@ export const fetchBooksByUser = createAsyncThunk(
   "user/fetchBooksByUser",
   async function (data, { rejectWithValue }) {
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/users/books`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${data.token}`,
-          },
-        }
-      );
+      const response = await fetch(`${BACKEND_URL}/users/books`, {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${data.token}`,
+        },
+      });
 
       const responseData = await response.json();
 
@@ -110,15 +103,12 @@ export const deleteBookById = createAsyncThunk(
   "user/deleteBookById",
   async function (data, { rejectWithValue }) {
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/books/${data.bookId}`,
-        {
-          method: "DELETE",
-          headers: {
-            Authorization: `Bearer ${data.token}`,
-          },
-        }
-      );
+      const response = await fetch(`${BACKEND_URL}/books/${data.bookId}`, {
+        method: "DELETE",
+        headers: {
+          Authorization: `Bearer ${data.token}`,
+        },
+      });
 
       const responseData = await response.json();
 
