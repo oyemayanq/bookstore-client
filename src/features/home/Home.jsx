@@ -18,7 +18,7 @@ function Home() {
     (state) => state.book
   );
 
-  console.log(books);
+  //console.log(books);
 
   useEffect(() => {
     dispatch(fetchBooks({ page: currentPage }));
